@@ -66,6 +66,7 @@ catch (exception $ex)
 			echo '<textarea wrap="off" style="height: 200px; width: 100%;">' . htmlentities($ex->getTraceAsString()) . '</textarea>';
 			echo "<h4>In addition to the above error, the default error template could not be displayed:</h4>\n";
 			echo '<textarea wrap="off" style="height: 200px; width: 100%;">' . htmlentities($ex2->getMessage()) . "\n\n" . htmlentities($ex2->getTraceAsString()) . '</textarea>';
+			echo 'nothings';
 		}
 	}
 }
